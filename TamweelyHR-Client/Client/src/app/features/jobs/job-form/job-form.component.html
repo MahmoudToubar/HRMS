@@ -1,0 +1,38 @@
+<h2 class="mb-3">
+  {{ isEditMode ? 'Edit Job' : 'Create Job' }}
+</h2>
+
+<form [formGroup]="jobForm" (ngSubmit)="submit()">
+
+  <div class="mb-3">
+    <label class="form-label">Job Name</label>
+    <input
+      type="text"
+      class="form-control"
+      formControlName="name"
+      maxlength="100"
+    />
+
+    <small
+  class="text-danger"
+  *ngIf="jobForm.get('name')?.touched && jobForm.get('name')?.errors"
+>
+  <span *ngIf="jobForm.get('name')?.errors?.['required']">
+    Job name is required
+  </span>
+
+  <span *ngIf="jobForm.get('name')?.errors?.['maxlength']">
+    Maximum 100 characters
+  </span>
+</small>
+  </div>
+
+  <button type="submit" class="btn btn-primary me-2" [disabled]="loading">
+    {{ isEditMode ? 'Update' : 'Save' }}
+  </button>
+
+  <button type="button" class="btn btn-secondary" (click)="cancel()">
+    Cancel
+  </button>
+
+</form>

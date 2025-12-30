@@ -1,0 +1,972 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\TamweelyHR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\departmentvalidator\\createdepartmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\departmentvalidator\\createdepartmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\employeevalidator\\createemployeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\employeevalidator\\createemployeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\specifications\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\specifications\\specificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\services\\excelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\excelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\data\\tamweelyhrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\tamweelyhrdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\configurations\\jobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\jobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\employeeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\configurations\\departmentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\jobvalidator\\updatejobvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\jobvalidator\\updatejobvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\jobvalidator\\createjobvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\jobvalidator\\createjobvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\employeevalidator\\updateemployeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\employeevalidator\\updateemployeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\validators\\departmentvalidator\\updatedepartmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\validators\\departmentvalidator\\updatedepartmentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\specifications\\lookupspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\specifications\\lookupspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\specifications\\lookupspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\specifications\\lookupspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\specifications\\employeespecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\specifications\\employeespecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\specifications\\employeespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\specifications\\employeespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\interfaces\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\interfaces\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\interfaces\\services\\iexcelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\interfaces\\services\\iexcelexportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\identity\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\helpers\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\helpers\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\entities\\job.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\entities\\baselookupentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\entities\\baselookupentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\jobs\\updatejobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\jobs\\updatejobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\jobs\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\jobs\\jobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\jobs\\createjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\jobs\\createjobdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\employees\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\employees\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\employees\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\employees\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\employees\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\employees\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\departments\\updatedepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\departments\\updatedepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\departments\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\departments\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\departments\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\departments\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\account\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\account\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|d:\\project\\tamweelyhr\\core\\dtos\\account\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0478F3EE-6B86-48ED-AA95-CCFEBA72E7B3}|Core\\Core.csproj|solutionrelative:core\\dtos\\account\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\extensions\\swaggerserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\extensions\\identityserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\extensions\\identityserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\controllers\\jobscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|d:\\project\\tamweelyhr\\tamweelyhr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0190421B-4A1E-4B00-8315-0684119E7D63}|TamweelyHR\\API.csproj|solutionrelative:tamweelyhr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\migrations\\20251230035308_addunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20251230035308_addunique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|d:\\project\\tamweelyhr\\infrastructure\\migrations\\20251228025600_adjust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565B7EB6-A6FA-474F-8D61-49C54F5E9E4F}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20251228025600_adjust.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "TamweelyHR\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:43:36.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JobConfiguration.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Configurations\\JobConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\JobConfiguration.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Configurations\\JobConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\JobConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:39:43.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateEmployeeValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\EmployeeValidator\\CreateEmployeeValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\EmployeeValidator\\CreateEmployeeValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\EmployeeValidator\\CreateEmployeeValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\EmployeeValidator\\CreateEmployeeValidator.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:01:14.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateDepartmentValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\DepartmentValidator\\CreateDepartmentValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\DepartmentValidator\\CreateDepartmentValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\DepartmentValidator\\CreateDepartmentValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\DepartmentValidator\\CreateDepartmentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T01:18:26.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Program.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Program.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Program.cs",
+              "RelativeToolTip": "TamweelyHR\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T02:06:15.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequestValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\LoginRequestValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\LoginRequestValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\LoginRequestValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\LoginRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T16:30:26.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpecificationEvaluator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Specifications\\SpecificationEvaluator.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Specifications\\SpecificationEvaluator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Specifications\\SpecificationEvaluator.cs",
+              "RelativeToolTip": "Infrastructure\\Specifications\\SpecificationEvaluator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:38:08.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExcelExportService.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Services\\ExcelExportService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\ExcelExportService.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Services\\ExcelExportService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\ExcelExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:38:50.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:37:40.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TamweelyHrDbContext.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Data\\TamweelyHrDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\TamweelyHrDbContext.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Data\\TamweelyHrDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\TamweelyHrDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:36:39.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\DbInitializer.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCIAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T13:26:08.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeConfiguration.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Configurations\\EmployeeConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\EmployeeConfiguration.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Configurations\\EmployeeConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\EmployeeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:39:21.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepartmentConfiguration.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Configurations\\DepartmentConfiguration.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Configurations\\DepartmentConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Configurations\\DepartmentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:39:32.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateJobValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\JobValidator\\UpdateJobValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\JobValidator\\UpdateJobValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\JobValidator\\UpdateJobValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\JobValidator\\UpdateJobValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T01:29:52.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateJobValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\JobValidator\\CreateJobValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\JobValidator\\CreateJobValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\JobValidator\\CreateJobValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\JobValidator\\CreateJobValidator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T01:29:33.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateEmployeeValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\EmployeeValidator\\UpdateEmployeeValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\EmployeeValidator\\UpdateEmployeeValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\EmployeeValidator\\UpdateEmployeeValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\EmployeeValidator\\UpdateEmployeeValidator.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:01:25.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateDepartmentValidator.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Validators\\DepartmentValidator\\UpdateDepartmentValidator.cs",
+              "RelativeDocumentMoniker": "Core\\Validators\\DepartmentValidator\\UpdateDepartmentValidator.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Validators\\DepartmentValidator\\UpdateDepartmentValidator.cs",
+              "RelativeToolTip": "Core\\Validators\\DepartmentValidator\\UpdateDepartmentValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T01:18:49.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LookupSpecParams.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Specifications\\LookupSpecParams.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\LookupSpecParams.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Specifications\\LookupSpecParams.cs",
+              "RelativeToolTip": "Core\\Specifications\\LookupSpecParams.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T22:53:40.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LookupSpecification.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Specifications\\LookupSpecification.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\LookupSpecification.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Specifications\\LookupSpecification.cs",
+              "RelativeToolTip": "Core\\Specifications\\LookupSpecification.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T22:55:14.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeSpecParams.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Specifications\\EmployeeSpecParams.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\EmployeeSpecParams.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Specifications\\EmployeeSpecParams.cs",
+              "RelativeToolTip": "Core\\Specifications\\EmployeeSpecParams.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:55:12.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeSpecification.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Specifications\\EmployeeSpecification.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\EmployeeSpecification.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Specifications\\EmployeeSpecification.cs",
+              "RelativeToolTip": "Core\\Specifications\\EmployeeSpecification.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:54:59.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseSpecification.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Specifications\\BaseSpecification.cs",
+              "RelativeDocumentMoniker": "Core\\Specifications\\BaseSpecification.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Specifications\\BaseSpecification.cs",
+              "RelativeToolTip": "Core\\Specifications\\BaseSpecification.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:54:43.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ISpecification.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Interfaces\\Specifications\\ISpecification.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\Specifications\\ISpecification.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Interfaces\\Specifications\\ISpecification.cs",
+              "RelativeToolTip": "Core\\Interfaces\\Specifications\\ISpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:54:23.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IExcelExportService.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Interfaces\\Services\\IExcelExportService.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\Services\\IExcelExportService.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Interfaces\\Services\\IExcelExportService.cs",
+              "RelativeToolTip": "Core\\Interfaces\\Services\\IExcelExportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T17:01:11.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\Interfaces\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:51:31.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Identity\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\Identity\\AppUser.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Identity\\AppUser.cs",
+              "RelativeToolTip": "Core\\Identity\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:50:01.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Helpers\\Roles.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\Roles.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Helpers\\Roles.cs",
+              "RelativeToolTip": "Core\\Helpers\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:04:53.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Helpers\\Pagination.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\Pagination.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Helpers\\Pagination.cs",
+              "RelativeToolTip": "Core\\Helpers\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:03:24.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Job.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Entities\\Job.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Job.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Entities\\Job.cs",
+              "RelativeToolTip": "Core\\Entities\\Job.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:47:53.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Entities\\Employee.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Employee.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Entities\\Employee.cs",
+              "RelativeToolTip": "Core\\Entities\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:47:19.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Department.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Entities\\Department.cs",
+              "RelativeToolTip": "Core\\Entities\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:47:35.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BaseLookupEntity.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Entities\\BaseLookupEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\BaseLookupEntity.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Entities\\BaseLookupEntity.cs",
+              "RelativeToolTip": "Core\\Entities\\BaseLookupEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:47:05.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\BaseEntity.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Core\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:38:09.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateJobDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Jobs\\UpdateJobDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Jobs\\UpdateJobDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Jobs\\UpdateJobDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Jobs\\UpdateJobDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T03:24:49.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "JobDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Jobs\\JobDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Jobs\\JobDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Jobs\\JobDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Jobs\\JobDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:00:34.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateJobDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Jobs\\CreateJobDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Jobs\\CreateJobDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Jobs\\CreateJobDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Jobs\\CreateJobDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T03:24:31.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateEmployeeDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Employees\\UpdateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Employees\\UpdateEmployeeDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Employees\\UpdateEmployeeDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Employees\\UpdateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:00:02.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Employees\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Employees\\EmployeeDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Employees\\EmployeeDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Employees\\EmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:59:39.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateEmployeeDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Employees\\CreateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Employees\\CreateEmployeeDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Employees\\CreateEmployeeDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Employees\\CreateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:59:52.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateDepartmentDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Departments\\UpdateDepartmentDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Departments\\UpdateDepartmentDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Departments\\UpdateDepartmentDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Departments\\UpdateDepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T02:40:36.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Departments\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Departments\\DepartmentDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Departments\\DepartmentDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Departments\\DepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:00:23.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CreateDepartmentDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Departments\\CreateDepartmentDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Departments\\CreateDepartmentDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Departments\\CreateDepartmentDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Departments\\CreateDepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T02:39:28.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Account\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Account\\LoginResponseDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Account\\LoginResponseDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Account\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:58:57.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Core\\DTOs\\Account\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "Core\\DTOs\\Account\\LoginRequestDto.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Core\\DTOs\\Account\\LoginRequestDto.cs",
+              "RelativeToolTip": "Core\\DTOs\\Account\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T00:58:43.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Services\\JwtTokenService.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "TamweelyHR\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowC8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:44:34.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "TamweelyHR\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:44:08.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SwaggerServiceExtensions.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Extensions\\SwaggerServiceExtensions.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Extensions\\SwaggerServiceExtensions.cs",
+              "RelativeToolTip": "TamweelyHR\\Extensions\\SwaggerServiceExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:42:59.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IdentityServiceExtensions.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Extensions\\IdentityServiceExtensions.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Extensions\\IdentityServiceExtensions.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Extensions\\IdentityServiceExtensions.cs",
+              "RelativeToolTip": "TamweelyHR\\Extensions\\IdentityServiceExtensions.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:42:46.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "JobsController.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\JobsController.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Controllers\\JobsController.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\JobsController.cs",
+              "RelativeToolTip": "TamweelyHR\\Controllers\\JobsController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwBkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:41:57.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Controllers\\EmployeesController.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "TamweelyHR\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAmwA4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:41:22.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "TamweelyHR\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwCMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:41:42.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Controllers\\BaseApiController.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "TamweelyHR\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:40:38.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TamweelyHR\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TamweelyHR\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-27T01:41:01.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\TamweelyHR\\appsettings.json",
+              "RelativeDocumentMoniker": "TamweelyHR\\appsettings.json",
+              "ToolTip": "D:\\project\\TamweelyHR\\TamweelyHR\\appsettings.json",
+              "RelativeToolTip": "TamweelyHR\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-27T01:14:47.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20251230035308_AddUnique.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Migrations\\20251230035308_AddUnique.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251230035308_AddUnique.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Migrations\\20251230035308_AddUnique.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251230035308_AddUnique.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T03:53:08.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20251228025600_Adjust.cs",
+              "DocumentMoniker": "D:\\project\\TamweelyHR\\Infrastructure\\Migrations\\20251228025600_Adjust.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251228025600_Adjust.cs",
+              "ToolTip": "D:\\project\\TamweelyHR\\Infrastructure\\Migrations\\20251228025600_Adjust.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251228025600_Adjust.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T02:56:00.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

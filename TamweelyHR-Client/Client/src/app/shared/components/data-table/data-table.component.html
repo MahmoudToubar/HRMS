@@ -1,0 +1,93 @@
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th *ngFor="let col of columns" (click)="onSort(col)" style="cursor:pointer">
+        {{ col.header }}
+        <span *ngIf="currentSortKey === col.sortKey">
+          <i *ngIf="currentSortDirection === 'asc'">▲</i>
+          <i *ngIf="currentSortDirection === 'desc'">▼</i>
+        </span>
+      </th>
+
+      <th *ngIf="showActions">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let row of data">
+      <td *ngFor="let col of columns">
+        <ng-container [ngSwitch]="col.type">
+
+          <!-- Date -->
+          <span *ngSwitchCase="'date'">
+            {{ row[col.field] | date:'dd/MM/yyyy' }}
+          </span>
+
+          <!-- Default -->
+          <span *ngSwitchDefault>
+            {{ row[col.field] }}
+          </span>
+
+        </ng-container>
+      </td>
+
+      <td *ngIf="showActions">
+        <button class="btn btn-sm btn-primary me-1" (click)="edit.emit(row)">
+          Edit
+        </button>
+        <button class="btn btn-sm btn-danger" (click)="delete.emit(row)">
+          Delete
+        </button>
+      </td>
+    </tr>
+
+    <tr *ngIf="!data || data.length === 0">
+      <td [attr.colspan]="columns.length + (showActions ? 1 : 0)" class="text-center">
+        No data found
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Page Size -->
+<div>
+  <label class="me-2">Page Size:</label>
+  <select class="form-select d-inline-block w-auto" [value]="pagination?.pageSize" (change)="changePageSize($event)">
+
+    <option *ngFor="let size of pageSizeOptions" [value]="size">
+      {{ size }}
+    </option>
+  </select>
+</div>
+
+<!-- Pagination -->
+<div *ngIf="pagination" class="d-flex justify-content-between align-items-center">
+  <span>
+    Page {{ pagination.pageIndex }}
+  </span>
+
+  <div class="d-flex gap-1">
+
+ 
+    <button class="btn btn-sm btn-secondary" [disabled]="pagination.pageIndex === 1"
+      (click)="changePage(pagination.pageIndex - 1)">
+      ‹
+    </button>
+
+ 
+    <button *ngFor="let page of pages" class="btn btn-sm" [ngClass]="{
+      'btn-primary': pagination.pageIndex === page,
+      'btn-outline-secondary': pagination.pageIndex !== page
+    }" (click)="changePage(page)">
+      {{ page }}
+    </button>
+
+ 
+    <button class="btn btn-sm btn-secondary" [disabled]="pagination.pageIndex === totalPages"
+      (click)="changePage(pagination.pageIndex + 1)">
+      ›
+    </button>
+
+  </div>
+
+</div>

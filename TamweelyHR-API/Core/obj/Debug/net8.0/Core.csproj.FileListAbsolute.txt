@@ -1,0 +1,12 @@
+D:\project\TamweelyHR\Core\bin\Debug\net8.0\Core.deps.json
+D:\project\TamweelyHR\Core\bin\Debug\net8.0\Core.dll
+D:\project\TamweelyHR\Core\bin\Debug\net8.0\Core.pdb
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.dll
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\refint\Core.dll
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\Core.pdb
+D:\project\TamweelyHR\Core\obj\Debug\net8.0\ref\Core.dll

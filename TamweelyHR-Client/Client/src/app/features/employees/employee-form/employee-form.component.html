@@ -1,0 +1,96 @@
+<h2 class="mb-3">
+  {{ isEditMode ? 'Edit Employee' : 'Create Employee' }}
+</h2>
+
+<form [formGroup]="employeeForm" (ngSubmit)="submit()">
+
+  <!-- Full Name -->
+  <div class="mb-3">
+    <label class="form-label">Full Name</label>
+    <input type="text" class="form-control" formControlName="fullName" maxlength="150" />
+    <small class="text-danger" *ngIf="employeeForm.get('fullName')?.touched && employeeForm.get('fullName')?.errors">
+      <span *ngIf="employeeForm.get('fullName')?.errors?.['required']">
+        Full name is required
+      </span>
+      <span *ngIf="employeeForm.get('fullName')?.errors?.['maxlength']">
+        Maximum 150 characters
+      </span>
+    </small>
+
+  </div>
+
+  <!-- Email -->
+  <div class="mb-3">
+    <label class="form-label">Email</label>
+    <input type="email" class="form-control" formControlName="email" maxlength="100" />
+    <small class="text-danger" *ngIf="employeeForm.get('email')?.touched && employeeForm.get('email')?.errors">
+      <span *ngIf="employeeForm.get('email')?.errors?.['required']">
+        Email is required
+      </span>
+      <span *ngIf="employeeForm.get('email')?.errors?.['email']">
+        Invalid email format
+      </span>
+      <span *ngIf="employeeForm.get('email')?.errors?.['maxlength']">
+        Maximum 100 characters
+      </span>
+    </small>
+
+  </div>
+
+  <!-- Mobile -->
+  <div class="mb-3">
+    <label class="form-label">Mobile</label>
+    <input type="text" class="form-control" formControlName="mobile" maxlength="11" inputmode="numeric"
+      pattern="[0-9]*" />
+    <small class="text-danger" *ngIf="employeeForm.get('mobile')?.touched && employeeForm.get('mobile')?.errors">
+      <span *ngIf="employeeForm.get('mobile')?.errors?.['required']">
+        Mobile is required
+      </span>
+      <span *ngIf="employeeForm.get('mobile')?.errors?.['pattern']">
+        Mobile must be a valid Egyptian number (11 digits)
+      </span>
+      <span *ngIf="employeeForm.get('mobile')?.errors?.['maxlength']">
+        Mobile must be 11 digits
+      </span>
+    </small>
+
+  </div>
+
+  <!-- Date Of Birth -->
+  <div class="mb-3">
+    <label class="form-label">Date Of Birth</label>
+    <input type="date" class="form-control" formControlName="dateOfBirth" />
+  </div>
+
+  <!-- Department -->
+  <div class="mb-3">
+    <label class="form-label">Department</label>
+    <select class="form-select" formControlName="departmentId">
+      <option value="">Select Department</option>
+      <option *ngFor="let dept of departments" [value]="dept.id">
+        {{ dept.name }}
+      </option>
+    </select>
+  </div>
+
+  <!-- Job -->
+  <div class="mb-3">
+    <label class="form-label">Job</label>
+    <select class="form-select" formControlName="jobId">
+      <option value="">Select Job</option>
+      <option *ngFor="let job of jobs" [value]="job.id">
+        {{ job.name }}
+      </option>
+    </select>
+  </div>
+
+  <!-- Actions -->
+  <button type="submit" class="btn btn-primary me-2" [disabled]="loading">
+    {{ isEditMode ? 'Update' : 'Save' }}
+  </button>
+
+  <button type="button" class="btn btn-secondary" (click)="cancel()">
+    Cancel
+  </button>
+
+</form>

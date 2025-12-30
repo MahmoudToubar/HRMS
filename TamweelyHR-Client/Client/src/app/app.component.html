@@ -1,0 +1,17 @@
+<ng-container *ngIf="accountService.currentUser$ | async as user; else authLayout">
+
+  <app-header></app-header>
+
+  <div class="app-layout">
+    <app-sidebar></app-sidebar>
+
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</ng-container>
+
+<ng-template #authLayout>
+  <router-outlet></router-outlet>
+</ng-template>

@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+  <div class="container-fluid">
+
+    <!-- App Name -->
+    <a class="navbar-brand" routerLink="/">
+      Tamweely HR
+    </a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNavbar">
+
+      <!-- Logout -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item" *ngIf="accountService.currentUser$ | async">
+          <a class="nav-link" href="#" (click)="logout()">
+            Logout
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>

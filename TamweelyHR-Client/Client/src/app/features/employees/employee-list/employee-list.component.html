@@ -1,0 +1,63 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h2>Employees</h2>
+
+  <div>
+    <button class="btn btn-success me-2" (click)="onAdd()">
+      Add Employee
+    </button>
+
+    <button class="btn btn-outline-primary" (click)="exportEmployees()">
+      Export
+    </button>
+  </div>
+</div>
+
+<!-- Search & Filters -->
+<div class="row mb-3">
+  <div class="col-md-4">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search..."
+      (input)="onSearch($any($event.target).value)"
+    />
+  </div>
+
+  <div class="col-md-4">
+    <select class="form-select" (change)="onDepartmentChange($any($event.target).value)">
+      <option value="">All Departments</option>
+      <option *ngFor="let d of departments" [value]="d.id">
+        {{ d.name }}
+      </option>
+    </select>
+  </div>
+
+  <div class="col-md-4">
+    <select class="form-select" (change)="onJobChange($any($event.target).value)">
+      <option value="">All Jobs</option>
+      <option *ngFor="let j of jobs" [value]="j.id">
+        {{ j.name }}
+      </option>
+    </select>
+  </div>
+</div>
+
+<!-- Data Table -->
+<app-data-table
+  [columns]="columns"
+  [data]="employees"
+  [pagination]="pagination"
+  [pageSizeOptions]="[5, 10, 20, 50]"
+  (pageChange)="onPageChange($event)"
+  (sortChange)="onSort($event)"
+  (edit)="onEdit($event)"
+  (delete)="onDelete($event)">
+</app-data-table>
+
+<!-- Confirm Dialog -->
+<app-confirm-dialog
+  [show]="showConfirm"
+  title="Delete Employee"
+  message="Are you sure you want to delete this employee?"
+  (confirm)="onConfirmDelete($event)">
+</app-confirm-dialog>

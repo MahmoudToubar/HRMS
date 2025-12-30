@@ -1,0 +1,42 @@
+<div class="sidebar bg-dark text-white">
+  <div class="sidebar-header">
+    <h5 class="mb-0">Tamweely HR</h5>
+  </div>
+
+  <ul class="nav flex-column mt-3">
+
+
+    <li class="nav-item"
+        *ngIf="accountService.isAdmin() || accountService.isUser()">
+      <a
+        routerLink="/employees"
+        routerLinkActive="active"
+        class="nav-link text-white">
+        Employees
+      </a>
+    </li>
+
+
+    <li class="nav-item"
+        *ngIf="accountService.isAdmin()">
+      <a
+        routerLink="/departments"
+        routerLinkActive="active"
+        class="nav-link text-white">
+        Departments
+      </a>
+    </li>
+
+
+    <li class="nav-item"
+        *ngIf="accountService.isAdmin()">
+      <a
+        routerLink="/jobs"
+        routerLinkActive="active"
+        class="nav-link text-white">
+        Jobs
+      </a>
+    </li>
+
+  </ul>
+</div>

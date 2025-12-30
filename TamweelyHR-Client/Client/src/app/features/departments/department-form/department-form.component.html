@@ -1,0 +1,35 @@
+<h2 class="mb-3">
+  {{ isEditMode ? 'Edit Department' : 'Create Department' }}
+</h2>
+
+<form [formGroup]="departmentForm" (ngSubmit)="submit()">
+
+  <div class="mb-3">
+    <label class="form-label">Department Name</label>
+    <input type="text" class="form-control" formControlName="name" maxlength="100" />
+
+    <small class="text-danger" *ngIf="departmentForm.get('name')?.touched && departmentForm.get('name')?.errors">
+      <span *ngIf="departmentForm.get('name')?.errors?.['required']">
+        Department name is required
+      </span>
+
+      <span *ngIf="departmentForm.get('name')?.errors?.['maxlength']">
+        Maximum 100 characters
+      </span>
+
+      <span class="text-danger" *ngIf="departmentForm.get('name')?.errors?.['server']">
+        {{ departmentForm.get('name')?.errors?.['server'] }}
+      </span>
+    </small>
+
+  </div>
+
+  <button type="submit" class="btn btn-primary me-2" [disabled]="loading">
+    {{ isEditMode ? 'Update' : 'Save' }}
+  </button>
+
+  <button type="button" class="btn btn-secondary" (click)="cancel()">
+    Cancel
+  </button>
+
+</form>

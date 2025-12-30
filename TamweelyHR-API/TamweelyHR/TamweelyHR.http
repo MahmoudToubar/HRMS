@@ -1,0 +1,6 @@
+@TamweelyHR_HostAddress = http://localhost:5291
+
+GET {{TamweelyHR_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
